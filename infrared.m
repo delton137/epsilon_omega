@@ -1,5 +1,9 @@
 %infrared.m 
-%simple infrared program 
+%simple infrared spectra program 
+%This code is not fully functional (FFT not working). 
+%It was written as an easy way to investigate methods of smoothing noisy spectra
+%2014 Dan Elton
+
 
 %----- Load file ----------------------------------------------------
 input = load('../../infrared/out_TTM3F128_1_300_10ps_.5fsNVE_tot_dip.dat', 'r');
